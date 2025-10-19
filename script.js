@@ -112,6 +112,23 @@ class RomanticWebsite {
         }
     }
 
+    removeSubtitle(container) {
+        if (container) {
+            // Animate out the subtitle
+            gsap.to(container, {
+                y: -20,
+                opacity: 0,
+                duration: 0.3,
+                ease: "power2.in",
+                onComplete: () => {
+                    container.textContent = '';
+                    container.style.opacity = '0';
+                }
+            });
+        }
+    }
+    
+
     setupAdvancedAnimations() {
         // Create animated background particles
         this.createBackgroundParticles();
