@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hạnh phúc nha 💙</title>
+    <title>20/10 - Dành cho em 💗</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         :root {
-            --pink: #A7C7E7;
-            --cream: #F0F8FF;
-            --lavender: #B0D4F1;
-            --yellow: #C9E4F7;
+            --pink: #FFC1CC;
+            --cream: #FFF9F9;
+            --lavender: #C6B8E9;
+            --yellow: #FFF3B0;
         }
 
         body {
@@ -29,7 +29,7 @@
         }
 
         .dancing-script {
-            font-family: 'Times New Roman', Times, serif;
+            font-family: 'Dancing Script', cursive;
         }
 
         .great-vibes {
@@ -43,7 +43,7 @@
         }
 
         .floating-hearts::before {
-            content: '💙';
+            content: '💗';
             position: absolute;
             animation: float 6s ease-in-out infinite;
         }
@@ -95,16 +95,16 @@
         .letter-paper::before {
             content: '';
             position: absolute;
-            left: 20px;
+            left: 60px;
             top: 0;
             bottom: 0;
-            width: 10px;
-            background: #6B9BD1;
+            width: 2px;
+            background: #ff9eb5;
         }
 
         .typewriter {
             overflow: hidden;
-            border-right: 2px solid #6B9BD1;
+            border-right: 2px solid #ff9eb5;
             white-space: nowrap;
             animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
         }
@@ -127,7 +127,7 @@
             }
 
             50% {
-                border-color: #6B9BD1;
+                border-color: #ff9eb5;
             }
         }
 
@@ -298,7 +298,7 @@
         }
 
         .glow {
-            box-shadow: 0 0 20px rgba(167, 199, 231, 0.6);
+            box-shadow: 0 0 20px rgba(255, 193, 204, 0.6);
         }
 
         .section {
@@ -336,7 +336,7 @@
 
         /* Enhanced button visibility */
         #startBtn {
-            background: linear-gradient(45deg, #4A90E2, #6B9BD1, #4A90E2) !important;
+            background: linear-gradient(45deg, #ff6b9d, #a855f7, #ff6b9d) !important;
             background-size: 200% 200% !important;
             animation: gradientShift 3s ease infinite !important;
             color: white !important;
@@ -395,290 +395,338 @@
     <div class="floating-hearts" style="bottom: 10%; left: 50%; animation-delay: 3s;"></div>
 
     <!-- Section 1: Trang mở đầu -->
-    
+    <section id="intro"
+        class="section bg-gradient-to-br from-pink-100 via-purple-100 to-yellow-100 relative overflow-hidden">
+        <!-- Romantic Background Elements -->
+        <div class="absolute inset-0 pointer-events-none">
+            <div class="floating-element absolute top-10 left-10 text-6xl opacity-30 animate-bounce">🌸</div>
+            <div class="floating-element absolute top-20 right-20 text-5xl opacity-40 animate-pulse">💖</div>
+            <div class="floating-element absolute bottom-20 left-20 text-4xl opacity-35 animate-bounce"
+                style="animation-delay: 1s;">🌺</div>
+            <div class="floating-element absolute bottom-10 right-10 text-5xl opacity-30 animate-pulse"
+                style="animation-delay: 2s;">💕</div>
+            <div class="floating-element absolute top-1/2 left-5 text-3xl opacity-25 animate-bounce"
+                style="animation-delay: 3s;">🦋</div>
+            <div class="floating-element absolute top-1/3 right-5 text-4xl opacity-35 animate-pulse"
+                style="animation-delay: 1.5s;">✨</div>
+        </div>
+
+        <!-- Sparkle Effects -->
+        <div class="sparkle-container absolute inset-0 pointer-events-none">
+            <div class="sparkle absolute top-1/4 left-1/4 w-2 h-2 bg-yellow-300 rounded-full animate-ping"></div>
+            <div class="sparkle absolute top-3/4 right-1/4 w-1 h-1 bg-pink-300 rounded-full animate-ping"
+                style="animation-delay: 1s;"></div>
+            <div class="sparkle absolute top-1/2 left-3/4 w-1.5 h-1.5 bg-purple-300 rounded-full animate-ping"
+                style="animation-delay: 2s;"></div>
+            <div class="sparkle absolute bottom-1/4 left-1/2 w-2 h-2 bg-yellow-200 rounded-full animate-ping"
+                style="animation-delay: 0.5s;"></div>
+        </div>
+
+        <div class="text-center px-6 relative z-10">
+            <div class="intro-content">
+                <!-- Image with enhanced effects -->
+                <div class="relative mb-12">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-pink-300 via-purple-300 to-yellow-300 rounded-full blur-xl animate-pulse intro-image-glow">
+                    </div>
+                    <img src="hinhanh/IMG_0322.jpg" alt="Memory"
+                        class="relative w-72 h-72 rounded-full mx-auto object-cover shadow-2xl intro-image border-4 border-white">
+                    <!-- Heart overlay -->
+                    <div class="absolute -top-4 -right-4 text-4xl animate-bounce intro-heart">💖</div>
+                    <div class="absolute -bottom-4 -left-4 text-3xl animate-pulse intro-heart"
+                        style="animation-delay: 0.5s;">💗</div>
+                </div>
+
+                <!-- Enhanced title with gradient text -->
+                <h1 class="text-5xl md:text-7xl great-vibes mb-8 intro-title"
+                    style="color: #7c3aed !important; text-shadow: 3px 3px 8px rgba(0,0,0,0.5) !important; font-weight: 800 !important; display: block !important; visibility: visible !important; opacity: 1 !important; z-index: 100 !important; position: relative !important;">
+                    Hôm nay là 20/10... 🌹
+                </h1>
+
+                <!-- Subtitle with typewriter effect -->
+                <div class="relative mb-12">
+                    <p class="text-xl md:text-2xl dancing-script leading-relaxed intro-subtitle bg-white bg-opacity-70 rounded-2xl px-8 py-6 shadow-lg backdrop-blur-sm border border-pink-200"
+                        style="color: #6b21a8 !important; font-weight: 600 !important; display: block !important; visibility: visible !important; opacity: 1 !important; z-index: 100 !important; position: relative !important;">
+                        "Một ngày anh muốn nói lại tất cả những điều mà im lặng không thể..."
+                    </p>
+                    <div class="absolute -top-2 left-1/2 transform -translate-x-1/2 text-2xl">💌</div>
+                </div>
+
+                <!-- Enhanced button with multiple effects -->
+                <div class="relative inline-block" style="margin: 20px 0;">
+                    <button id="startBtn" style="
+                        background: #ff1744 !important;
+                        color: white !important;
+                        padding: 15px 40px !important;
+                        border: none !important;
+                        border-radius: 50px !important;
+                        font-size: 1.5rem !important;
+                        font-weight: bold !important;
+                        cursor: pointer !important;
+                        box-shadow: 0 10px 20px rgba(255, 23, 68, 0.3) !important;
+                        transition: none !important;
+                        display: inline-block !important;
+                        visibility: visible !important;
+                        opacity: 1 !important;
+                        z-index: 9999 !important;
+                        position: relative !important;
+                        text-shadow: none !important;
+                        font-family: 'Dancing Script', cursive !important;
+                        transform: scale(1) !important;
+                        animation: none !important;
+                    " onmouseover="this.style.transform='scale(1.1) !important'"
+                        onmouseout="this.style.transform='scale(1) !important'">
+                        Bắt đầu nhé 💗
+                    </button>
+                    <!-- Button decoration -->
+                    <div
+                        style="position: absolute; top: -10px; left: -10px; font-size: 2rem; animation: spin 3s linear infinite;">
+                        ✨</div>
+                    <div
+                        style="position: absolute; bottom: -10px; right: -10px; font-size: 2rem; animation: bounce 2s ease infinite;">
+                        💫</div>
+                </div>
+
+                <!-- Special greeting message -->
+                <div class="mt-8 mb-6">
+                    <div class="intro-greeting bg-gradient-to-r from-pink-200 via-purple-200 to-yellow-200 rounded-2xl px-8 py-4 shadow-lg border-2 border-white backdrop-blur-sm relative"
+                        style="visibility: visible !important; opacity: 1 !important; display: block !important; z-index: 100 !important; position: relative !important;">
+                        <p class="greeting-text text-2xl md:text-4xl great-vibes font-semibold"
+                            style="color: #7c3aed !important; text-shadow: 3px 3px 8px rgba(0,0,0,0.5) !important; font-weight: 800 !important; display: block !important; visibility: visible !important; opacity: 1 !important; z-index: 101 !important; position: relative !important;">
+                            🌸 Chúc em ngày 20/10 luôn vui vẻ và hạnh phúc 🌸
+                        </p>
+                        <!-- Decorative elements -->
+                        <div class="absolute -top-2 -left-2 text-xl animate-bounce">💖</div>
+                        <div class="absolute -top-2 -right-2 text-xl animate-pulse">🌺</div>
+                        <div class="absolute -bottom-2 -left-2 text-xl animate-pulse" style="animation-delay: 0.5s;">✨
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 text-xl animate-bounce" style="animation-delay: 1s;">💝
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating message -->
+                <div class="mt-8 opacity-75">
+                    <p class="text-lg md:text-xl dancing-script animate-pulse"
+                        style="color: #7c3aed !important; font-weight: 700 !important; text-shadow: 2px 2px 6px rgba(0,0,0,0.4) !important; display: block !important; visibility: visible !important; opacity: 1 !important; font-size: 1.25rem !important;">
+                    </p>
+                    💝 Em kéo xuống nhé !! 💝
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rose petals falling effect -->
+        <div class="rose-petals absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="petal absolute text-pink-400 text-2xl animate-float">🌸</div>
+            <div class="petal absolute text-pink-300 text-xl animate-float"
+                style="left: 20%; animation-delay: 1s; animation-duration: 8s;">🌺</div>
+            <div class="petal absolute text-rose-400 text-lg animate-float"
+                style="left: 40%; animation-delay: 2s; animation-duration: 10s;">🌹</div>
+            <div class="petal absolute text-pink-500 text-xl animate-float"
+                style="left: 60%; animation-delay: 3s; animation-duration: 9s;">🌸</div>
+            <div class="petal absolute text-pink-300 text-2xl animate-float"
+                style="left: 80%; animation-delay: 4s; animation-duration: 7s;">🌺</div>
+        </div>
+    </section>
 
     <!-- Section 2: Câu chuyện & lời xin lỗi -->
-    
+    <section id="story" class="section bg-gradient-to-b from-cream-100 to-pink-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="parallax-text story-text">
+                <h2 class="text-3xl md:text-5xl dancing-script text-purple-700 mb-12">Lời xin lỗi từ trái tim</h2>
+
+                <div class="story-content space-y-8">
+                    <p class="text-xl md:text-2xl text-gray-700 leading-relaxed parallax-text dancing-script italic">
+                        Anh đã im lặng... vì sợ em buồn.
+                    </p>
+
+                    <div class="my-12">
+                        <img src="hinhanh/IMG_0094.JPG" alt="Memory 1"
+                            class="w-80 h-60 mx-auto rounded-lg object-cover glow parallax-text shadow-xl">
+                    </div>
+
+                    <p class="text-xl md:text-2xl text-gray-700 leading-relaxed parallax-text dancing-script italic">
+                        Nhưng chính sự im lặng ấy lại làm em tổn thương.
+                    </p>
+
+                    <div class="my-12">
+                        <img src="hinhanh/IMG_0099.JPG" alt="Memory 2"
+                            class="w-80 h-60 mx-auto rounded-lg object-cover glow parallax-text shadow-xl">
+                    </div>
+
+                    <p class="text-xl md:text-2xl text-gray-700 leading-relaxed parallax-text dancing-script italic">
+                        Anh xin lỗi vì đã để em phải chịu cô đơn.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Section 3: Hồi ức ngọt ngào - Redesigned -->
- 
+    <section id="memories" class="section bg-gradient-to-br from-purple-100 to-pink-100">
+        <div class="max-w-6xl mx-auto px-4 md:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-5xl dancing-script text-center text-purple-700 mb-8 md:mb-12">Những
+                kỷ niệm ngọt ngào</h2>
+
+            <div class="swiper memoriesSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="memory-card">
+                            <img src="hinhanh/IMG_0256.jpg" alt="Memory" class="memory-img">
+                            <div class="memory-overlay">
+                                <p class="memory-text">Khoảnh khắc em cười – là điều anh nhớ nhất.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memory-card">
+                            <img src="hinhanh/IMG_0317.jpg" alt="Memory" class="memory-img">
+                            <div class="memory-overlay">
+                                <p class="memory-text">Ngày ấy, anh đã thấy em là cả thế giới.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memory-card">
+                            <img src="hinhanh/IMG_0328.jpg" alt="Memory" class="memory-img">
+                            <div class="memory-overlay">
+                                <p class="memory-text">Em luôn là ánh sáng trong tim anh.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memory-card">
+                            <img src="hinhanh/z5026587538466_d59f6fc89300bd87dd8f8fede125f9e0.jpg" alt="Memory"
+                                class="memory-img">
+                            <div class="memory-overlay">
+                                <p class="memory-text">Mỗi giây phút bên em đều quý giá.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memory-card">
+                            <img src="hinhanh/z5026587735722_8b5e8d05c0733cf1d1c0ed23adfe038d.jpg" alt="Memory"
+                                class="memory-img">
+                            <div class="memory-overlay">
+                                <p class="memory-text">Tình yêu anh dành cho em không bao giờ thay đổi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memory-card">
+                            <img src="hinhanh/z5026640533542_a551e7a49e95e0f4091945f0b3c341bd.jpg" alt="Memory"
+                                class="memory-img">
+                            <div class="memory-overlay">
+                                <p class="memory-text">Em mãi là người anh yêu nhất.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Section 4: Thư tình -->
-    <section id="letter" class="section bg-gradient-to-b from-blue-50 to-sky-100">
+    <section id="letter" class="section bg-gradient-to-b from-yellow-100 to-pink-100">
         <div class="max-w-4xl mx-auto px-6">
             <div class="letter-paper rounded-lg p-8 md:p-12">
-                <!-- <h2 class="text-3xl md:text-4xl great-vibes text-center text-blue-700 mb-8">Thư gửi em</h2> -->
+                <h2 class="text-3xl md:text-4xl great-vibes text-center text-purple-700 mb-8">Thư gửi em - người con gái
+                    anh vẫn mãi thương</h2>
 
-                <div class="letter-content space-y-4 text-gray-700">
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh muốn nói với em một lần cuối, bằng tất cả những gì anh đã giữ trong lòng suốt một năm qua.
+                <div class="letter-content space-y-6 text-gray-700">
+                    <p class="text-lg md:text-xl leading-relaxed dancing-script ">
+                        Anh chưa từng buông bỏ em… chưa từng. Chỉ là anh chọn im lặng, để không làm em thêm buồn.
                     </p>
 
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Em bây giờ đã trưởng thành hơn trước, đã bình yên và mạnh mẽ hơn. Nhìn em như vậy, thật sự anh không còn lý do gì để giữ em lại nữa. Và anh cũng không muốn em nghĩ rằng anh tuyệt tình hay lạnh lùng. Không phải vậy, chưa bao giờ là vậy. Chỉ là có quá nhiều điều trong lòng anh… mà anh đã không thể nói ra.
+                    <p class="text-lg md:text-xl leading-relaxed dancing-script"
+                        >
+                        Dù không còn liên lạc, nhưng trong trái tim anh, em vẫn là phần duy nhất không thể thay thế.
                     </p>
 
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Một năm qua, anh im lặng không phải vì hết thương.<br>
-                        Không phải vì anh bỏ rơi.<br>
-                        Không phải vì anh muốn biến mất khỏi cuộc sống của em.
+                    <p class="text-lg md:text-xl leading-relaxed dancing-script "
+                        >
+                        Anh không chọn ai khác, không phải vì không ai tốt hơn… mà vì chẳng ai là em.
                     </p>
 
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script text-blue-700 font-semibold">
-                        Anh im lặng… vì anh sợ.
+                    <p class="text-lg md:text-xl leading-relaxed dancing-script"
+                        >
+                        Anh hiểu, giữa chúng ta tồn tại quá nhiều điều không thể. Anh biết, tình cảm này tuy khó, nhưng
+                        anh vẫn cam lòng cùng em đi qua đoạn đường vô vọng ấy.
                     </p>
 
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Anh sợ rất nhiều thứ mà em không hề biết.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh biết gia đình em không ủng hộ tụi mình. Anh biết em đã chịu nhiều áp lực, nhiều lời nói, nhiều sự cấm cản. Anh biết có những lúc em đứng ở giữa tất cả mọi thứ đó, cảm giác bị kéo về hai phía, vừa thương anh vừa sợ làm gia đình buồn.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh nhìn thấy em mệt lắm.<br>
-                        Anh thấy em cố gồng.<br>
-                        Anh thấy em chịu đựng mà không biết phải nói với ai.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Và chính điều đó… khiến anh không dám bước thêm một bước nào nữa.<br>
-                        Không phải vì anh không muốn đến gần em…<br>
-                        mà vì mỗi lần anh tiến thêm một chút, anh biết gánh nặng trên vai em sẽ tăng thêm một phần.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh không muốn em là người đứng giữa hai thế giới—gia đình và người em thương—để phải chịu hết mọi tổn thương.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Anh không muốn em phải lựa chọn ai.<br>
-                        Không muốn em cảm thấy có lỗi.<br>
-                        Không muốn em phải khóc vì những điều vượt ngoài khả năng của em.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh cũng không muốn em đặt quá nhiều hy vọng vào một chuyện mà sâu thẳm trong lòng, anh biết rằng khả năng để nó đi đến cái kết mà em mong… là quá nhỏ.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script text-blue-700 font-semibold">
-                        Và rồi anh bắt đầu sợ.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Sợ rằng nếu em thương anh nhiều hơn, thì đến cuối cùng… nếu tụi mình vẫn không vượt qua được gia đình, người đau nhất vẫn sẽ là em.<br>
-                        Sợ rằng em sẽ trách trái tim mình vì đã yêu anh.<br>
-                        Sợ rằng em sẽ thất vọng khi mọi cố gắng của hai đứa không thắng nổi thực tế.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Nỗi sợ lớn nhất của anh không phải mất em…<br>
-                        mà là thấy em đau vì anh.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Vậy nên anh mới chọn cách lùi lại.<br>
-                        Không phải vì muốn rời xa, mà vì muốn bảo vệ em khỏi kết cục mà anh sợ nhất.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Nhưng cái giá của sự lùi lại đó… em sẽ không bao giờ biết được nó nặng đến mức nào.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script text-blue-700 font-semibold">
-                        Một năm qua, anh sống trong cảm giác như mình đang chống chọi với chính trái tim mình.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh nhớ em đến mức chỉ cần thấy tên em hiện lên đâu đó, tim anh cũng đau thắt.<br>
-                        Nhưng anh vẫn không dám nhắn.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Có những đêm anh mở khung chat của em rồi lại đóng. Gõ vài chữ rồi xóa. Muốn nói ra lòng mình nhưng tay run vì sợ chỉ một tin nhắn của anh cũng làm em khó xử.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Có những lúc anh muốn chạy đến bên em, nói rằng anh chưa bao giờ rời bỏ… nhưng ý nghĩ về những điều em từng chịu lại khiến anh đứng yên.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh chọn im lặng để em được nhẹ lòng…<br>
-                        nhưng chính điều đó lại khiến anh phải mang hết nỗi đau về phía mình.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh chịu đựng nỗi nhớ bằng im lặng.<br>
-                        Anh chịu đựng sự bất lực bằng việc giả vờ mạnh mẽ.<br>
-                        Anh chịu đựng cô đơn mà không có ai bên cạnh, không ai hiểu, không ai biết.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Nhưng thật ra… trong lòng anh còn nhiều hơn thế nữa.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script text-blue-700 font-semibold">
-                        Anh đau rất nhiều, em à.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Nhiều lần anh muốn quay lại, muốn nhắn cho em, muốn bước tới và nói rằng anh vẫn thương em như ngày nào.<br>
-                        Nhưng cứ mỗi lần anh định làm vậy… anh lại sợ.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh sợ vì lỗi lầm năm xưa.<br>
-                        Sợ quá khứ sẽ quay lại làm em tổn thương.<br>
-                        Sợ thêm một lần nào đó em phải rơi nước mắt vì anh.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Có lần anh thấy em cười — một nụ cười mà anh từng yêu nhiều lắm.<br>
-                        Và tim anh đau đến mức anh biết rằng… anh không thể là lý do làm nụ cười đó biến mất.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Bạn em nói em dễ tổn thương. Anh biết điều đó.<br>
-                        Anh biết em mong manh, em mạnh mẽ bên ngoài nhưng bên trong lại nhạy cảm biết bao nhiêu.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Và chính vì biết… nên anh càng sợ.<br>
-                        Sợ những rào cản gia đình quá lớn.<br>
-                        Sợ em phải gồng mình thêm một lần nữa.<br>
-                        Sợ em lại rơi vào cảm giác đau mà anh từng thấy ở em.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Cũng vì cho em, vì sợ làm em đau, anh mới đứng lại ở đó — một mình.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Nhưng đến cuối cùng, một năm nay, anh cũng không biết mình đã chờ đợi vì điều gì.<br>
-                        Anh đã cố níu lại mọi thứ trong tim — níu một hi vọng mà đôi khi chính anh cũng không còn tin nó có thể thành thật.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh đã tới tuổi rồi.<br>
-                        Gia đình anh cũng mong anh sớm có vợ, có gia đình, để ba mẹ nhẹ lòng.<br>
-                        Mỗi lời như vậy là một lần anh thấy ngực mình thắt lại…<br>
-                        vì anh biết mình không quên được em,<br>
-                        nhưng cũng không thể đến bên em.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh chỉ cố gắng chờ.<br>
-                        Chờ trong vô định.<br>
-                        Chờ mà không biết mình đang hi vọng điều gì.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Và nhiều lúc, anh tự hỏi:<br>
-                        tại sao anh lại chọn đau như vậy?<br>
-                        tại sao anh lại tự đẩy mình vào chỗ này?<br>
-                        tại sao anh lại tự làm trái tim mình rỉ máu suốt một năm?
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh cảm thấy mình ngốc thật.<br>
-                        Ngốc vì thương em nhiều như vậy.<br>
-                        Ngốc vì chọn im lặng để bảo vệ em nhưng lại tự hành hạ bản thân.<br>
-                        Ngốc vì cứ đứng nơi đó — nơi chỉ có nỗi nhớ và nỗi đau ở cùng anh.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Nhưng anh làm tất cả chỉ vì một điều duy nhất:<br>
-                        anh không muốn một lần nào nữa em phải tổn thương.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Bây giờ nhìn em bình yên hơn, mạnh mẽ hơn… anh hiểu rằng anh không nên đứng ở vị trí cũ nữa.<br>
-                        Không phải là buông tay lạnh lùng…<br>
-                        mà là để em có cuộc sống nhẹ nhàng hơn, không còn lo lắng gì từ phía anh.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Từ hôm nay, anh sẽ không làm phiền cuộc sống của em nữa.<br>
-                        Anh sẽ lùi lại — nhẹ nhàng, tôn trọng, và im lặng.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh không trách em.<br>
-                        Không trách anh.<br>
-                        Không trách gia đình em.<br>
-                        Không trách hoàn cảnh hay thời điểm.<br>
-                        Mọi chuyện đã qua, và anh nhìn nó bằng lòng biết ơn thay vì nỗi buồn.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script font-semibold text-blue-800">
-                        Cảm ơn em vì đã đến bên anh.<br>
-                        Cảm ơn em vì những điều tốt đẹp em từng dành cho anh.<br>
-                        Cảm ơn em vì đã cho anh những ký ức mà dù có đau, anh vẫn trân trọng.<br>
-                        Cảm ơn em… nhiều lắm.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Và nếu em đang đọc đến những dòng này, anh chỉ mong rằng em sẽ bước tiếp trên đoạn đường đời sắp tới với nhiều niềm vui hơn nỗi buồn.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Anh mong em luôn mạnh mẽ,<br>
-                        luôn sống đúng với trái tim mình,<br>
-                        và lúc nào cũng giữ được nụ cười thật tươi trên môi.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script">
-                        Mỗi buổi sáng mong em có lý do để vui.<br>
-                        Mỗi buổi tối mong em ngủ yên giấc.<br>
-                        Mỗi ngày mong em sống nhẹ nhàng và bình an.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script text-center font-semibold text-blue-700 italic">
-                        Dù tương lai chúng ta đi trên hai con đường khác nhau,<br>
-                        anh vẫn luôn chúc em tất cả những điều tốt đẹp nhất.
-                    </p>
-
-                    <p class="text-lg md:text-xl leading-relaxed dancing-script text-center font-semibold text-blue-700 italic">
-                        Mong em luôn cười thật vui, thật hạnh phúc, thật rạng rỡ —<br>
-                        như cách anh từng mong em sẽ được như vậy trong cuộc đời mình.
+                    <p class="text-lg md:text-xl leading-relaxed dancing-script typewriter-text"
+                        >
+                        Gặp được em là may mắn mà cả đời này anh không muốn quên. Em là chấp niệm dịu dàng nhất, là nỗi
+                        nhớ kéo dài đến đau đớn nhất mỗi đêm.
                     </p>
                 </div>
 
-                
+                <div class="text-center mt-12">
+                    <div id="heartPrompt" class="mb-6 opacity-100 transition-opacity duration-500">
+                        <p class="text-lg dancing-script text-purple-600 animate-pulse">
+                            💗 Nhấn vào trái tim nhé 💗
+                        </p>
+                    </div>
+                    <button id="heartBtn"
+                        class="text-6xl heartbeat hover:scale-110 transition-transform duration-300">❤️</button>
+                    <p id="heartMessage"
+                        class="text-xl dancing-script text-pink-600 mt-4 opacity-0 transition-opacity duration-500">
+                        Nếu trái tim em vẫn còn đập vì anh... hãy để anh được bắt đầu lại.
+                    </p>
+                </div>
 
             </div>
         </div>
     </section>
 
     <!-- Section 5: Tương tác nhỏ dễ thương -->
-   
+    <section id="interaction" class="section bg-gradient-to-br from-pink-100 to-purple-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-5xl dancing-script text-purple-700 mb-12">Nhấn vào những bông hoa để mở ra điều
+                anh muốn nói</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="flower text-6xl" data-message="Anh nhớ em">🌸</div>
+                <div class="flower text-6xl" data-message="Anh xin lỗi">🌺</div>
+                <div class="flower text-6xl" data-message="Anh yêu em">🌹</div>
+                <div class="flower text-6xl" data-message="Em là tất cả của anh">🌻</div>
+                <div class="flower text-6xl" data-message="Anh muốn được bên em">🌷</div>
+                <div class="flower text-6xl" data-message="Em mãi trong tim anh">🌼</div>
+            </div>
+
+            <div id="flowerMessage"
+                class="mt-8 text-2xl dancing-script text-pink-600 min-h-[3rem] opacity-0 transition-opacity duration-500">
+            </div>
+        </div>
+    </section>
 
     <!-- Section 6: Phần kết -->
-    <!-- <section id="ending" class="section bg-gradient-to-b from-blue-100 to-sky-200">
+    <section id="ending" class="section sunset-bg">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <div class="ending-content">
-                <h2 class="text-4xl md:text-6xl great-vibes text-blue-800 mb-8">Lời chúc cuối cùng...</h2>
+                <h2 class="text-4xl md:text-6xl great-vibes text-purple-800 mb-8">Nếu em sẵn lòng...</h2>
 
-                <p class="text-xl md:text-2xl dancing-script text-blue-700 mb-12 leading-relaxed">
-                    Mong em luôn cười thật vui, thật hạnh phúc, thật rạng rỡ — như cách anh từng mong em sẽ được như vậy trong cuộc đời mình.
+                <p class="text-xl md:text-2xl dancing-script text-purple-700 mb-12 leading-relaxed">
+                    Anh chỉ mong được cùng em đi tiếp, dù chỉ thêm một bước nhỏ thôi.
                 </p>
 
                 <button id="finalBtn"
-                    class="bg-gradient-to-r from-blue-400 to-sky-400 hover:from-blue-500 hover:to-sky-500 text-white px-12 py-6 rounded-full text-xl dancing-script transition-all duration-300 transform hover:scale-105 shadow-xl">
-                    Cảm ơn em 💙
+                    class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-white px-12 py-6 rounded-full text-xl dancing-script transition-all duration-300 transform hover:scale-105 shadow-xl">
+                    Đồng ý nhé! 💬
                 </button>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Music Control -->
-    <!-- <div class="fixed bottom-4 right-4 z-50">
+    <div class="fixed bottom-4 right-4 z-50">
         <button id="musicToggle"
-            class="bg-blue-400 hover:bg-blue-500 text-white p-3 rounded-full shadow-lg transition-all duration-300">
+            class="bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full shadow-lg transition-all duration-300">
             🎵
         </button>
-    </div> -->
+    </div>
 
     <script>
         // Register ScrollTrigger plugin
@@ -1007,8 +1055,8 @@
 
             // Show thank you message
             const thankYouMessage = document.createElement('div');
-            thankYouMessage.innerHTML = 'Cảm ơn em đã đọc hết. Anh chúc em luôn hạnh phúc. 💙';
-            thankYouMessage.className = 'mt-8 text-xl md:text-2xl dancing-script text-blue-700 bg-white bg-opacity-80 rounded-2xl px-8 py-6 shadow-lg backdrop-blur-sm border-2 border-blue-200 opacity-0 transform scale-95 transition-all duration-500';
+            thankYouMessage.innerHTML = 'Cảm ơn em đã đọc hết! Anh hy vọng em sẽ cho anh một cơ hội. 💗';
+            thankYouMessage.className = 'mt-8 text-xl md:text-2xl dancing-script text-purple-700 bg-white bg-opacity-80 rounded-2xl px-8 py-6 shadow-lg backdrop-blur-sm border-2 border-pink-200 opacity-0 transform scale-95 transition-all duration-500';
 
             // Insert the message after the button
             document.getElementById('finalBtn').parentNode.appendChild(thankYouMessage);
@@ -1029,7 +1077,7 @@
             for (let i = 0; i < 10; i++) {
                 setTimeout(() => {
                     const heart = document.createElement('div');
-                    heart.textContent = '💙';
+                    heart.textContent = '💗';
                     heart.style.position = 'fixed';
                     heart.style.left = Math.random() * window.innerWidth + 'px';
                     heart.style.top = window.innerHeight + 'px';
@@ -1059,7 +1107,7 @@
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
 
-            const emojis = ['💙', '💙', '🌊', '✨', '💫', '🦋', '💙', '💙', '✨', '💙'];
+            const emojis = ['💖', '💗', '💕', '💝', '🌸', '🌺', '✨', '💫', '🦋', '🌹'];
 
             for (let i = 0; i < 20; i++) {
                 const element = document.createElement('div');
@@ -1094,7 +1142,7 @@
             const flash = document.createElement('div');
             flash.style.position = 'fixed';
             flash.style.inset = '0';
-            flash.style.background = 'radial-gradient(circle, rgba(167,199,231,0.8) 0%, transparent 70%)';
+            flash.style.background = 'radial-gradient(circle, rgba(255,193,204,0.8) 0%, transparent 70%)';
             flash.style.pointerEvents = 'none';
             flash.style.zIndex = '9999';
             flash.style.opacity = '0';
@@ -1141,7 +1189,7 @@
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
 
-            const hearts = ['💙', '💙', '🌊', '💙', '💙'];
+            const hearts = ['💖', '💗', '💕', '💝', '💘'];
 
             for (let i = 0; i < 12; i++) {
                 const heart = document.createElement('div');
@@ -1194,7 +1242,7 @@
         // Create greeting sparkles
         function createGreetingSparkles(element) {
             const rect = element.getBoundingClientRect();
-            const specialEmojis = ['✨', '💙', '💎', '🌊', '💙', '💎', '✨', '🦋'];
+            const specialEmojis = ['🎉', '🎊', '✨', '💖', '🌸', '🌺', '💝', '🦋'];
 
             for (let i = 0; i < 12; i++) {
                 const sparkle = document.createElement('div');
@@ -1227,7 +1275,7 @@
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
 
-            const celebrationEmojis = ['✨', '💫', '💙', '💙', '💎', '💙', '💙', '💙', '🦋', '✨', '💫', '💙'];
+            const celebrationEmojis = ['🎉', '🎊', '🥳', '💖', '🌸', '🌺', '🎁', '💝', '🦋', '✨', '💫', '🌹'];
 
             // Create celebration burst
             for (let i = 0; i < 20; i++) {
@@ -1456,7 +1504,7 @@
         // Add scroll indicator
         const scrollIndicator = document.createElement('div');
         scrollIndicator.innerHTML = '⬇️';
-        scrollIndicator.className = 'fixed bottom-10 left-1/2 transform -translate-x-1/2 text-2xl animate-bounce text-blue-500 z-50';
+        scrollIndicator.className = 'fixed bottom-10 left-1/2 transform -translate-x-1/2 text-2xl animate-bounce text-pink-500 z-50';
         document.body.appendChild(scrollIndicator);
 
         // Hide scroll indicator when not at top

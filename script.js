@@ -265,7 +265,7 @@ class RomanticWebsite {
 
         for (let i = 0; i < 15; i++) {
             const heart = document.createElement('div');
-            heart.textContent = '💖';
+            heart.textContent = '💙';
             heart.style.position = 'fixed';
             heart.style.left = centerX + 'px';
             heart.style.top = centerY + 'px';
@@ -462,8 +462,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Add loading screen
     const loadingScreen = document.createElement('div');
-    loadingScreen.innerHTML = '<div class="loading-heart">💗</div>';
-    loadingScreen.style.cssText = 'position: fixed; inset: 0; background: linear-gradient(45deg, #FFF9F9, #FFC1CC); z-index: 9999; display: flex; align-items: center; justify-content: center;';
+    // Blue heart + blue background
+    loadingScreen.innerHTML = '<div class="loading-heart">💙</div>';
+    loadingScreen.style.cssText = 'position: fixed; inset: 0; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 50%, #90CAF9 100%); z-index: 9999; display: flex; align-items: center; justify-content: center;';
     document.body.appendChild(loadingScreen);
     
     // Remove loading screen after initialization

@@ -1,0 +1,620 @@
+[
+  {
+    "CAPDONVIID": "1",
+    "TEN_COQUAN": "UBND tỉnh An Giang",
+    "ID": "11358",
+    "MA_COQUAN": "H01"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Long Điền - tỉnh An Giang",
+    "ID": "13748",
+    "MA_COQUAN": "H01.145"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Thạnh Hưng - tỉnh An Giang",
+    "ID": "13782",
+    "MA_COQUAN": "H01.176"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hòn Nghệ - tỉnh An Giang",
+    "ID": "13769",
+    "MA_COQUAN": "H01.163"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tri Tôn - tỉnh An Giang",
+    "ID": "13737",
+    "MA_COQUAN": "H01.134"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Đông Hưng - tỉnh An Giang",
+    "ID": "13799",
+    "MA_COQUAN": "H01.191"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Bình Sơn - tỉnh An Giang",
+    "ID": "13771",
+    "MA_COQUAN": "H01.167"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Châu Phong - tỉnh An Giang",
+    "ID": "13720",
+    "MA_COQUAN": "H01.115"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Giang Thành - tỉnh An Giang",
+    "ID": "13767",
+    "MA_COQUAN": "H01.198"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Hanh - tỉnh An Giang",
+    "ID": "13746",
+    "MA_COQUAN": "H01.141"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Tô Châu - tỉnh An Giang",
+    "ID": "13761",
+    "MA_COQUAN": "H01.158"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Thoại Sơn - tỉnh An Giang",
+    "ID": "13753",
+    "MA_COQUAN": "H01.149"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hòa Thuận - tỉnh An Giang",
+    "ID": "13786",
+    "MA_COQUAN": "H01.180"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Mỹ Hòa Hưng - tỉnh An Giang",
+    "ID": "13708",
+    "MA_COQUAN": "H01.104"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Xương - tỉnh An Giang",
+    "ID": "13718",
+    "MA_COQUAN": "H01.116"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hòa Điền - tỉnh An Giang",
+    "ID": "13765",
+    "MA_COQUAN": "H01.161"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Ô Lâm - tỉnh An Giang",
+    "ID": "13740",
+    "MA_COQUAN": "H01.135"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Long Xuyên - tỉnh An Giang",
+    "ID": "13707",
+    "MA_COQUAN": "H01.101"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Cô Tô - tỉnh An Giang",
+    "ID": "13741",
+    "MA_COQUAN": "H01.136"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã An Cư - tỉnh An Giang",
+    "ID": "13735",
+    "MA_COQUAN": "H01.130"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Phú Tân - tỉnh An Giang",
+    "ID": "13721",
+    "MA_COQUAN": "H01.117"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND Đặc khu Thổ Châu - tỉnh An Giang",
+    "ID": "13805",
+    "MA_COQUAN": "H01.202"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Bình An - tỉnh An Giang",
+    "ID": "13780",
+    "MA_COQUAN": "H01.170"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Thạnh Trung - tỉnh An Giang",
+    "ID": "13729",
+    "MA_COQUAN": "H01.124"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Thới Sơn - tỉnh An Giang",
+    "ID": "13732",
+    "MA_COQUAN": "H01.128"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND Đặc khu Kiên Hải - tỉnh An Giang",
+    "ID": "13806",
+    "MA_COQUAN": "H01.200"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Châu Phú - tỉnh An Giang",
+    "ID": "13727",
+    "MA_COQUAN": "H01.125"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vân Khánh - tỉnh An Giang",
+    "ID": "13800",
+    "MA_COQUAN": "H01.192"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Định Hòa - tỉnh An Giang",
+    "ID": "13788",
+    "MA_COQUAN": "H01.182"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Rạch Giá - tỉnh An Giang",
+    "ID": "13759",
+    "MA_COQUAN": "H01.155"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Điều - tỉnh An Giang",
+    "ID": "13766",
+    "MA_COQUAN": "H01.199"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Giồng Riềng - tỉnh An Giang",
+    "ID": "13781",
+    "MA_COQUAN": "H01.175"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Chợ Mới - tỉnh An Giang",
+    "ID": "13747",
+    "MA_COQUAN": "H01.146"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Chi Lăng - tỉnh An Giang",
+    "ID": "13733",
+    "MA_COQUAN": "H01.131"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã U Minh Thượng - tỉnh An Giang",
+    "ID": "13797",
+    "MA_COQUAN": "H01.193"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Hà Tiên - tỉnh An Giang",
+    "ID": "13762",
+    "MA_COQUAN": "H01.157"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Hòa Hưng - tỉnh An Giang",
+    "ID": "13789",
+    "MA_COQUAN": "H01.183"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tân Hiệp - tỉnh An Giang",
+    "ID": "13775",
+    "MA_COQUAN": "H01.172"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Trạch - tỉnh An Giang",
+    "ID": "13757",
+    "MA_COQUAN": "H01.153"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Bình Hòa - tỉnh An Giang",
+    "ID": "13745",
+    "MA_COQUAN": "H01.139"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Bình Giang - tỉnh An Giang",
+    "ID": "13772",
+    "MA_COQUAN": "H01.168"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Óc Eo - tỉnh An Giang",
+    "ID": "13755",
+    "MA_COQUAN": "H01.150"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Cần Đăng - tỉnh An Giang",
+    "ID": "13743",
+    "MA_COQUAN": "H01.140"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Thạnh Mỹ Tây - tỉnh An Giang",
+    "ID": "13730",
+    "MA_COQUAN": "H01.127"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Mỹ Thuận - tỉnh An Giang",
+    "ID": "13774",
+    "MA_COQUAN": "H01.166"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Thạnh Đông - tỉnh An Giang",
+    "ID": "13777",
+    "MA_COQUAN": "H01.173"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hòa Hưng - tỉnh An Giang",
+    "ID": "13784",
+    "MA_COQUAN": "H01.178"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Mỹ Thới - tỉnh An Giang",
+    "ID": "13706",
+    "MA_COQUAN": "H01.103"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã An Phú - tỉnh An Giang",
+    "ID": "13711",
+    "MA_COQUAN": "H01.107"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã An Minh - tỉnh An Giang",
+    "ID": "13795",
+    "MA_COQUAN": "H01.188"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Ba Chúc - tỉnh An Giang",
+    "ID": "13738",
+    "MA_COQUAN": "H01.133"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Hậu - tỉnh An Giang",
+    "ID": "13715",
+    "MA_COQUAN": "H01.108"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Phú Lâm - tỉnh An Giang",
+    "ID": "13723",
+    "MA_COQUAN": "H01.122"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Long Thạnh - tỉnh An Giang",
+    "ID": "13785",
+    "MA_COQUAN": "H01.177"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Bình Thạnh Đông - tỉnh An Giang",
+    "ID": "13726",
+    "MA_COQUAN": "H01.119"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Chợ Vàm - tỉnh An Giang",
+    "ID": "13722",
+    "MA_COQUAN": "H01.120"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Bình - tỉnh An Giang",
+    "ID": "13802",
+    "MA_COQUAN": "H01.196"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Tuy - tỉnh An Giang",
+    "ID": "13790",
+    "MA_COQUAN": "H01.184"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Kiên Lương - tỉnh An Giang",
+    "ID": "13764",
+    "MA_COQUAN": "H01.160"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND Đặc khu Phú Quốc - tỉnh An Giang",
+    "ID": "13804",
+    "MA_COQUAN": "H01.201"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Tân Châu - tỉnh An Giang",
+    "ID": "13716",
+    "MA_COQUAN": "H01.112"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tân Thạnh - tỉnh An Giang",
+    "ID": "13798",
+    "MA_COQUAN": "H01.190"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Ngọc Chúc - tỉnh An Giang",
+    "ID": "13783",
+    "MA_COQUAN": "H01.179"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hòn Đất - tỉnh An Giang",
+    "ID": "13770",
+    "MA_COQUAN": "H01.164"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Sơn Hải - tỉnh An Giang",
+    "ID": "13768",
+    "MA_COQUAN": "H01.162"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Bình Mỹ - tỉnh An Giang",
+    "ID": "13731",
+    "MA_COQUAN": "H01.126"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh An - tỉnh An Giang",
+    "ID": "13744",
+    "MA_COQUAN": "H01.142"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Châu Thành - tỉnh An Giang",
+    "ID": "13778",
+    "MA_COQUAN": "H01.169"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hòa Lạc - tỉnh An Giang",
+    "ID": "13724",
+    "MA_COQUAN": "H01.121"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Khánh Bình - tỉnh An Giang",
+    "ID": "13712",
+    "MA_COQUAN": "H01.110"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Định Mỹ - tỉnh An Giang",
+    "ID": "13758",
+    "MA_COQUAN": "H01.151"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Đông Hòa - tỉnh An Giang",
+    "ID": "13796",
+    "MA_COQUAN": "H01.189"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Phong - tỉnh An Giang",
+    "ID": "13801",
+    "MA_COQUAN": "H01.197"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tiên Hải - tỉnh An Giang",
+    "ID": "13763",
+    "MA_COQUAN": "H01.159"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Vĩnh Thông - tỉnh An Giang",
+    "ID": "13760",
+    "MA_COQUAN": "H01.156"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Sơn Kiên - tỉnh An Giang",
+    "ID": "13773",
+    "MA_COQUAN": "H01.165"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Hòa - tỉnh An Giang",
+    "ID": "13794",
+    "MA_COQUAN": "H01.194"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Cù Lao Giêng - tỉnh An Giang",
+    "ID": "13749",
+    "MA_COQUAN": "H01.143"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tây Phú - tỉnh An Giang",
+    "ID": "13756",
+    "MA_COQUAN": "H01.154"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Phú Hữu - tỉnh An Giang",
+    "ID": "13714",
+    "MA_COQUAN": "H01.111"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Phú An - tỉnh An Giang",
+    "ID": "13725",
+    "MA_COQUAN": "H01.118"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Gia - tỉnh An Giang",
+    "ID": "13739",
+    "MA_COQUAN": "H01.137"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Đông Thái - tỉnh An Giang",
+    "ID": "13793",
+    "MA_COQUAN": "H01.187"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Bình Đức - tỉnh An Giang",
+    "ID": "13705",
+    "MA_COQUAN": "H01.102"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Châu Đốc - tỉnh An Giang",
+    "ID": "13709",
+    "MA_COQUAN": "H01.105"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Phú Hòa - tỉnh An Giang",
+    "ID": "13754",
+    "MA_COQUAN": "H01.152"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Thạnh Lộc - tỉnh An Giang",
+    "ID": "13779",
+    "MA_COQUAN": "H01.171"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Nhơn Mỹ - tỉnh An Giang",
+    "ID": "13750",
+    "MA_COQUAN": "H01.147"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Tịnh Biên - tỉnh An Giang",
+    "ID": "13734",
+    "MA_COQUAN": "H01.129"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND Xã Nhơn Hội - tỉnh An Giang",
+    "ID": "13713",
+    "MA_COQUAN": "H01.109"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã An Châu - tỉnh An Giang",
+    "ID": "13742",
+    "MA_COQUAN": "H01.138"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Long Kiến - tỉnh An Giang",
+    "ID": "13751",
+    "MA_COQUAN": "H01.148"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tây Yên - tỉnh An Giang",
+    "ID": "13792",
+    "MA_COQUAN": "H01.186"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Long Phú - tỉnh An Giang",
+    "ID": "13717",
+    "MA_COQUAN": "H01.113"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã An Biên - tỉnh An Giang",
+    "ID": "13791",
+    "MA_COQUAN": "H01.185"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tân An - tỉnh An Giang",
+    "ID": "13719",
+    "MA_COQUAN": "H01.114"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Vĩnh Thuận - tỉnh An Giang",
+    "ID": "13803",
+    "MA_COQUAN": "H01.195"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Núi Cấm - tỉnh An Giang",
+    "ID": "13736",
+    "MA_COQUAN": "H01.132"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Tân Hội - tỉnh An Giang",
+    "ID": "13776",
+    "MA_COQUAN": "H01.174"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Gò Quao - tỉnh An Giang",
+    "ID": "13787",
+    "MA_COQUAN": "H01.181"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Mỹ Đức - tỉnh An Giang",
+    "ID": "13728",
+    "MA_COQUAN": "H01.123"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND phường Vĩnh Tế - tỉnh An Giang",
+    "ID": "13710",
+    "MA_COQUAN": "H01.106"
+  },
+  {
+    "CAPDONVIID": "2",
+    "TEN_COQUAN": "UBND xã Hội An - tỉnh An Giang",
+    "ID": "13752",
+    "MA_COQUAN": "H01.144"
+  }
+]
